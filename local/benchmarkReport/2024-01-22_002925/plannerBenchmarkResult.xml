@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?><plannerBenchmarkResult>
+  <name>2024-01-22_002925</name>
+  <aggregation>false</aggregation>
+  <availableProcessors>8</availableProcessors>
+  <loggingLevelTimefoldSolverCore>INFO</loggingLevelTimefoldSolverCore>
+  <maxMemory>2116026368</maxMemory>
+  <timefoldSolverVersion>Community Edition v1.6.0</timefoldSolverVersion>
+  <javaVersion>Java 18.0.1 (Oracle Corporation)</javaVersion>
+  <javaVM>Java OpenJDK 64-Bit Server VM 18.0.1+10-24 (Oracle Corporation)</javaVM>
+  <operatingSystem>Windows 10 amd64 10.0</operatingSystem>
+  <parallelBenchmarkCount>1</parallelBenchmarkCount>
+  <warmUpTimeMillisSpentLimit>30</warmUpTimeMillisSpentLimit>
+  <solverBenchmarkResult>
+    <name>Tabu 5 500</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <environmentMode>REPRODUCIBLE</environmentMode>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>lv.lu.df.combop.domain.RoutingSolution</solutionClass>
+      <entityClass>lv.lu.df.combop.domain.Vehicle</entityClass>
+      <entityClass>lv.lu.df.combop.domain.Visit</entityClass>
+      <scoreDirectorFactory>
+        <constraintProviderClass>lv.lu.df.combop.solver.StreamCalculator</constraintProviderClass>
+      </scoreDirectorFactory>
+      <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+      </termination>
+      <constructionHeuristic/>
+      <localSearch>
+        <unionMoveSelector>
+          <subListChangeMoveSelector/>
+          <listChangeMoveSelector/>
+          <listSwapMoveSelector/>
+        </unionMoveSelector>
+        <acceptor>
+          <valueTabuSize>5</valueTabuSize>
+        </acceptor>
+        <forager>
+          <acceptedCountLimit>500</acceptedCountLimit>
+        </forager>
+      </localSearch>
+    </solverConfig>
+    <singleBenchmarkResult id="1">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11449200</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-366soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>617333</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="2">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11592576</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-747soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>346036</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="3">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11642528</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-2206soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>292588</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="4">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11682528</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-4859soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>286472</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="5">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11756008</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-9hard/-11813soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>293262</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="6">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11888104</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-93hard/-24009soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>298743</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <solverBenchmarkResult>
+    <name>Tabu 10 1000</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <environmentMode>REPRODUCIBLE</environmentMode>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>lv.lu.df.combop.domain.RoutingSolution</solutionClass>
+      <entityClass>lv.lu.df.combop.domain.Vehicle</entityClass>
+      <entityClass>lv.lu.df.combop.domain.Visit</entityClass>
+      <scoreDirectorFactory>
+        <constraintProviderClass>lv.lu.df.combop.solver.StreamCalculator</constraintProviderClass>
+      </scoreDirectorFactory>
+      <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+      </termination>
+      <constructionHeuristic/>
+      <localSearch>
+        <unionMoveSelector>
+          <subListChangeMoveSelector/>
+          <listChangeMoveSelector/>
+          <listSwapMoveSelector/>
+        </unionMoveSelector>
+        <acceptor>
+          <valueTabuSize>10</valueTabuSize>
+        </acceptor>
+        <forager>
+          <acceptedCountLimit>1000</acceptedCountLimit>
+        </forager>
+      </localSearch>
+    </solverConfig>
+    <singleBenchmarkResult id="7">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11570192</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-366soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>631336</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="8">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11610832</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-747soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>357548</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="9">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11645384</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-2397soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>297582</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="10">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11683912</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-4488soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>272514</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="11">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11757864</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-12146soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>277727</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="12">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11889104</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-50hard/-23582soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>316183</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <solverBenchmarkResult>
+    <name>LAHC 400</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <environmentMode>REPRODUCIBLE</environmentMode>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>lv.lu.df.combop.domain.RoutingSolution</solutionClass>
+      <entityClass>lv.lu.df.combop.domain.Vehicle</entityClass>
+      <entityClass>lv.lu.df.combop.domain.Visit</entityClass>
+      <scoreDirectorFactory>
+        <constraintProviderClass>lv.lu.df.combop.solver.StreamCalculator</constraintProviderClass>
+      </scoreDirectorFactory>
+      <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+      </termination>
+      <constructionHeuristic/>
+      <localSearch>
+        <unionMoveSelector>
+          <subListChangeMoveSelector/>
+          <listChangeMoveSelector/>
+          <listSwapMoveSelector/>
+        </unionMoveSelector>
+        <acceptor>
+          <lateAcceptanceSize>400</lateAcceptanceSize>
+        </acceptor>
+        <forager>
+          <acceptedCountLimit>1</acceptedCountLimit>
+        </forager>
+      </localSearch>
+    </solverConfig>
+    <singleBenchmarkResult id="13">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11572848</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-366soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>619525</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="14">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11613632</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-747soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>368687</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="15">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11647264</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-2241soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>315151</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="16">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11691408</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-5hard/-5063soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>273742</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="17">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11763392</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-37hard/-13070soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>268760</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="18">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11890136</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-83hard/-24018soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>319779</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <solverBenchmarkResult>
+    <name>SA 2 100</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <environmentMode>REPRODUCIBLE</environmentMode>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>lv.lu.df.combop.domain.RoutingSolution</solutionClass>
+      <entityClass>lv.lu.df.combop.domain.Vehicle</entityClass>
+      <entityClass>lv.lu.df.combop.domain.Visit</entityClass>
+      <scoreDirectorFactory>
+        <constraintProviderClass>lv.lu.df.combop.solver.StreamCalculator</constraintProviderClass>
+      </scoreDirectorFactory>
+      <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+      </termination>
+      <constructionHeuristic/>
+      <localSearch>
+        <unionMoveSelector>
+          <subListChangeMoveSelector/>
+          <listChangeMoveSelector/>
+          <listSwapMoveSelector/>
+        </unionMoveSelector>
+        <acceptor>
+          <simulatedAnnealingStartingTemperature>2hard/100soft</simulatedAnnealingStartingTemperature>
+        </acceptor>
+        <forager>
+          <acceptedCountLimit>4</acceptedCountLimit>
+        </forager>
+      </localSearch>
+    </solverConfig>
+    <singleBenchmarkResult id="19">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11579296</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-366soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>613472</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="20">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11616056</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-745soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>346352</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="21">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11650368</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-2189soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>283622</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="22">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11692440</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-4785soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>278763</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="23">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11765432</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-6hard/-11970soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>275124</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="24">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11892128</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-51hard/-22863soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>297312</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <solverBenchmarkResult>
+    <name>SA with TS 5</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <environmentMode>REPRODUCIBLE</environmentMode>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>lv.lu.df.combop.domain.RoutingSolution</solutionClass>
+      <entityClass>lv.lu.df.combop.domain.Vehicle</entityClass>
+      <entityClass>lv.lu.df.combop.domain.Visit</entityClass>
+      <scoreDirectorFactory>
+        <constraintProviderClass>lv.lu.df.combop.solver.StreamCalculator</constraintProviderClass>
+      </scoreDirectorFactory>
+      <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+      </termination>
+      <constructionHeuristic/>
+      <localSearch>
+        <unionMoveSelector>
+          <subListChangeMoveSelector/>
+          <listChangeMoveSelector/>
+          <listSwapMoveSelector/>
+        </unionMoveSelector>
+        <acceptor>
+          <entityTabuSize>5</entityTabuSize>
+          <simulatedAnnealingStartingTemperature>2hard/100soft</simulatedAnnealingStartingTemperature>
+        </acceptor>
+        <forager>
+          <acceptedCountLimit>4</acceptedCountLimit>
+        </forager>
+      </localSearch>
+    </solverConfig>
+    <singleBenchmarkResult id="25">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11584168</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-366soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>573049</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="26">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11622200</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-747soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>359684</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="27">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11652688</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-2414soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>283775</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="28">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11698576</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-4854soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>288727</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="29">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11766560</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-16hard/-10912soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>255595</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+    <singleBenchmarkResult id="30">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>11893176</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">-44hard/-22172soft</score>
+        <timeMillisSpent>10000</timeMillisSpent>
+        <scoreCalculationCount>317285</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>classExample_0_5</name>
+    <fileProblemProvider/>
+    <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>1</singleBenchmarkResult>
+    <singleBenchmarkResult>7</singleBenchmarkResult>
+    <singleBenchmarkResult>13</singleBenchmarkResult>
+    <singleBenchmarkResult>19</singleBenchmarkResult>
+    <singleBenchmarkResult>25</singleBenchmarkResult>
+    <entityCount>2</entityCount>
+    <variableCount>2</variableCount>
+    <maximumValueCount>10</maximumValueCount>
+    <problemScale>120</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>5</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>classExample_1_10</name>
+    <fileProblemProvider/>
+    <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>2</singleBenchmarkResult>
+    <singleBenchmarkResult>8</singleBenchmarkResult>
+    <singleBenchmarkResult>14</singleBenchmarkResult>
+    <singleBenchmarkResult>20</singleBenchmarkResult>
+    <singleBenchmarkResult>26</singleBenchmarkResult>
+    <entityCount>4</entityCount>
+    <variableCount>4</variableCount>
+    <maximumValueCount>20</maximumValueCount>
+    <problemScale>480</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>2</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>classExample_2_25</name>
+    <fileProblemProvider/>
+    <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>3</singleBenchmarkResult>
+    <singleBenchmarkResult>9</singleBenchmarkResult>
+    <singleBenchmarkResult>15</singleBenchmarkResult>
+    <singleBenchmarkResult>21</singleBenchmarkResult>
+    <singleBenchmarkResult>27</singleBenchmarkResult>
+    <entityCount>9</entityCount>
+    <variableCount>9</variableCount>
+    <maximumValueCount>50</maximumValueCount>
+    <problemScale>2943</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>2</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>classExample_3_50</name>
+    <fileProblemProvider/>
+    <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>4</singleBenchmarkResult>
+    <singleBenchmarkResult>10</singleBenchmarkResult>
+    <singleBenchmarkResult>16</singleBenchmarkResult>
+    <singleBenchmarkResult>22</singleBenchmarkResult>
+    <singleBenchmarkResult>28</singleBenchmarkResult>
+    <entityCount>17</entityCount>
+    <variableCount>17</variableCount>
+    <maximumValueCount>100</maximumValueCount>
+    <problemScale>11696</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>3</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>classExample_4_100</name>
+    <fileProblemProvider/>
+    <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>5</singleBenchmarkResult>
+    <singleBenchmarkResult>11</singleBenchmarkResult>
+    <singleBenchmarkResult>17</singleBenchmarkResult>
+    <singleBenchmarkResult>23</singleBenchmarkResult>
+    <singleBenchmarkResult>29</singleBenchmarkResult>
+    <entityCount>34</entityCount>
+    <variableCount>34</variableCount>
+    <maximumValueCount>200</maximumValueCount>
+    <problemScale>46784</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>4</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>classExample_5_200</name>
+    <fileProblemProvider/>
+    <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>6</singleBenchmarkResult>
+    <singleBenchmarkResult>12</singleBenchmarkResult>
+    <singleBenchmarkResult>18</singleBenchmarkResult>
+    <singleBenchmarkResult>24</singleBenchmarkResult>
+    <singleBenchmarkResult>30</singleBenchmarkResult>
+    <entityCount>67</entityCount>
+    <variableCount>67</variableCount>
+    <maximumValueCount>400</maximumValueCount>
+    <problemScale>186796</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>6</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <startingTimestamp>2024-01-22T00:29:25.9593297+02:00</startingTimestamp>
+  <benchmarkTimeMillisSpent>307091</benchmarkTimeMillisSpent>
+</plannerBenchmarkResult>

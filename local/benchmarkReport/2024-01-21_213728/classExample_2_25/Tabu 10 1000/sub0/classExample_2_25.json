@@ -1,0 +1,1448 @@
+{
+  "solutionId" : "3",
+  "score" : "0hard/-2628soft",
+  "vehicleList" : [ {
+    "regNr" : "AA1",
+    "capacity" : 35,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ {
+      "id" : "Klients18 PICKUP",
+      "name" : "Client18",
+      "volume" : 9,
+      "location" : {
+        "lat" : -6.714371104778132,
+        "lon" : -4.549780861914829,
+        "diff" : 0.5015008108525161
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients18 DELIVERY",
+        "name" : "Client18",
+        "volume" : 9,
+        "location" : {
+          "lat" : 4.376577903264867,
+          "lon" : -9.839724147997417,
+          "diff" : 0.8294761379423683
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients18 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 34053,
+        "twFinish" : 74427,
+        "vehicle" : "AA1",
+        "next" : "Klients1 PICKUP",
+        "prev" : "Klients3 PICKUP",
+        "volumeCollected" : 17,
+        "arrivalTime" : 47257
+      },
+      "srvTime" : 2257,
+      "twStart" : 28995,
+      "twFinish" : 74447,
+      "vehicle" : "AA1",
+      "next" : "Klients3 PICKUP",
+      "prev" : null,
+      "volumeCollected" : 9,
+      "arrivalTime" : 30114
+    }, {
+      "id" : "Klients3 PICKUP",
+      "name" : "Client3",
+      "volume" : 17,
+      "location" : {
+        "lat" : -6.487811790382814,
+        "lon" : 7.5408959947635275,
+        "diff" : 0.765248014476466
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients3 DELIVERY",
+        "name" : "Client3",
+        "volume" : 17,
+        "location" : {
+          "lat" : 7.883499534434989,
+          "lon" : 8.269309541002052,
+          "diff" : 0.7816795314212712
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients3 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 29197,
+        "twFinish" : 75716,
+        "vehicle" : "AA1",
+        "next" : "Klients1 DELIVERY",
+        "prev" : "Klients1 PICKUP",
+        "volumeCollected" : 13,
+        "arrivalTime" : 58609
+      },
+      "srvTime" : 6505,
+      "twStart" : 32686,
+      "twFinish" : 74187,
+      "vehicle" : "AA1",
+      "next" : "Klients18 DELIVERY",
+      "prev" : "Klients18 PICKUP",
+      "volumeCollected" : 26,
+      "arrivalTime" : 35481
+    }, "Klients18 DELIVERY", {
+      "id" : "Klients1 PICKUP",
+      "name" : "Client1",
+      "volume" : 13,
+      "location" : {
+        "lat" : 9.067302339640378,
+        "lon" : 4.217242244222177,
+        "diff" : 0.9007869186630943
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients1 DELIVERY",
+        "name" : "Client1",
+        "volume" : 13,
+        "location" : {
+          "lat" : 7.520207023881696,
+          "lon" : 4.049329140288725,
+          "diff" : 0.5188987446193213
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients1 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 32720,
+        "twFinish" : 77562,
+        "vehicle" : "AA1",
+        "next" : "Klients2 PICKUP",
+        "prev" : "Klients3 DELIVERY",
+        "volumeCollected" : 0,
+        "arrivalTime" : 60298
+      },
+      "srvTime" : 5855,
+      "twStart" : 29256,
+      "twFinish" : 73094,
+      "vehicle" : "AA1",
+      "next" : "Klients3 DELIVERY",
+      "prev" : "Klients18 DELIVERY",
+      "volumeCollected" : 30,
+      "arrivalTime" : 51668
+    }, "Klients3 DELIVERY", "Klients1 DELIVERY", {
+      "id" : "Klients2 PICKUP",
+      "name" : "Client2",
+      "volume" : 16,
+      "location" : {
+        "lat" : -0.15666440028161865,
+        "lon" : -6.170671193675714,
+        "diff" : 0.5479502386852767
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients2 DELIVERY",
+        "name" : "Client2",
+        "volume" : 16,
+        "location" : {
+          "lat" : -8.083254776822471,
+          "lon" : -1.4655131330296776,
+          "diff" : 0.832020731117024
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients2 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 34525,
+        "twFinish" : 73041,
+        "vehicle" : "AA1",
+        "next" : null,
+        "prev" : "Klients2 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 70939
+      },
+      "srvTime" : 4384,
+      "twStart" : 33715,
+      "twFinish" : 73432,
+      "vehicle" : "AA1",
+      "next" : "Klients2 DELIVERY",
+      "prev" : "Klients1 DELIVERY",
+      "volumeCollected" : 16,
+      "arrivalTime" : 64185
+    }, "Klients2 DELIVERY" ],
+    "employees" : [ {
+      "name" : "V1E1",
+      "employeeID" : "V1E1",
+      "vehicle" : null
+    }, {
+      "name" : "V1E2",
+      "employeeID" : "V1E2",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 2,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA2",
+    "capacity" : 32,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ {
+      "id" : "Klients21 PICKUP",
+      "name" : "Client21",
+      "volume" : 26,
+      "location" : {
+        "lat" : -1.857647704167709,
+        "lon" : 8.19323509803452,
+        "diff" : 0.8065536462777569
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients21 DELIVERY",
+        "name" : "Client21",
+        "volume" : 26,
+        "location" : {
+          "lat" : 4.788205062637495,
+          "lon" : -3.434031121821053,
+          "diff" : 0.513585874154153
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients21 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 35632,
+        "twFinish" : 78083,
+        "vehicle" : "AA2",
+        "next" : "Klients4 PICKUP",
+        "prev" : "Klients21 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 46602
+      },
+      "srvTime" : 10485,
+      "twStart" : 32673,
+      "twFinish" : 73679,
+      "vehicle" : "AA2",
+      "next" : "Klients21 DELIVERY",
+      "prev" : null,
+      "volumeCollected" : 26,
+      "arrivalTime" : 31927
+    }, "Klients21 DELIVERY", {
+      "id" : "Klients4 PICKUP",
+      "name" : "Client4",
+      "volume" : 25,
+      "location" : {
+        "lat" : -0.6122979117471132,
+        "lon" : 3.123129923075961,
+        "diff" : 0.5269859657808824
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients4 DELIVERY",
+        "name" : "Client4",
+        "volume" : 25,
+        "location" : {
+          "lat" : 3.0926807309413142,
+          "lon" : 8.166685949993298,
+          "diff" : 0.8532615286485974
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients4 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 34679,
+        "twFinish" : 75935,
+        "vehicle" : "AA2",
+        "next" : "Klients6 PICKUP",
+        "prev" : "Klients4 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 57582
+      },
+      "srvTime" : 6587,
+      "twStart" : 35852,
+      "twFinish" : 73422,
+      "vehicle" : "AA2",
+      "next" : "Klients4 DELIVERY",
+      "prev" : "Klients21 DELIVERY",
+      "volumeCollected" : 25,
+      "arrivalTime" : 49386
+    }, "Klients4 DELIVERY", {
+      "id" : "Klients6 PICKUP",
+      "name" : "Client6",
+      "volume" : 23,
+      "location" : {
+        "lat" : -1.584103642467916,
+        "lon" : 8.918303001124123,
+        "diff" : 0.5635626042990081
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients6 DELIVERY",
+        "name" : "Client6",
+        "volume" : 23,
+        "location" : {
+          "lat" : -8.62761184630825,
+          "lon" : -3.99801625767825,
+          "diff" : 0.5663774818440475
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients6 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 30231,
+        "twFinish" : 75443,
+        "vehicle" : "AA2",
+        "next" : null,
+        "prev" : "Klients6 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 69664
+      },
+      "srvTime" : 6481,
+      "twStart" : 29373,
+      "twFinish" : 73424,
+      "vehicle" : "AA2",
+      "next" : "Klients6 DELIVERY",
+      "prev" : "Klients4 DELIVERY",
+      "volumeCollected" : 23,
+      "arrivalTime" : 59400
+    }, "Klients6 DELIVERY" ],
+    "employees" : [ {
+      "name" : "V2E1",
+      "employeeID" : "V2E1",
+      "vehicle" : null
+    }, {
+      "name" : "V2E2",
+      "employeeID" : "V2E2",
+      "vehicle" : null
+    }, {
+      "name" : "V2E3",
+      "employeeID" : "V2E3",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 3,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA3",
+    "capacity" : 36,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ {
+      "id" : "Klients9 PICKUP",
+      "name" : "Client9",
+      "volume" : 29,
+      "location" : {
+        "lat" : -1.7997483001791643,
+        "lon" : 7.481162505037961,
+        "diff" : 0.9106911323270049
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients9 DELIVERY",
+        "name" : "Client9",
+        "volume" : 29,
+        "location" : {
+          "lat" : 9.978512492573973,
+          "lon" : 1.3573088110458578,
+          "diff" : 0.5357536411514647
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients9 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 35065,
+        "twFinish" : 76155,
+        "vehicle" : "AA3",
+        "next" : "Klients25 PICKUP",
+        "prev" : "Klients9 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 51340
+      },
+      "srvTime" : 13205,
+      "twStart" : 34721,
+      "twFinish" : 73459,
+      "vehicle" : "AA3",
+      "next" : "Klients9 DELIVERY",
+      "prev" : null,
+      "volumeCollected" : 29,
+      "arrivalTime" : 31787
+    }, "Klients9 DELIVERY", {
+      "id" : "Klients25 PICKUP",
+      "name" : "Client25",
+      "volume" : 28,
+      "location" : {
+        "lat" : 0.289764153755975,
+        "lon" : -6.426716347788693,
+        "diff" : 0.6807716504555875
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients25 DELIVERY",
+        "name" : "Client25",
+        "volume" : 28,
+        "location" : {
+          "lat" : -4.070435810990379,
+          "lon" : -9.08676662370187,
+          "diff" : 0.9035066031260828
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients25 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 34198,
+        "twFinish" : 78256,
+        "vehicle" : "AA3",
+        "next" : null,
+        "prev" : "Klients25 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 65980
+      },
+      "srvTime" : 9531,
+      "twStart" : 31255,
+      "twFinish" : 76185,
+      "vehicle" : "AA3",
+      "next" : "Klients25 DELIVERY",
+      "prev" : "Klients9 DELIVERY",
+      "volumeCollected" : 28,
+      "arrivalTime" : 55136
+    }, "Klients25 DELIVERY" ],
+    "employees" : [ {
+      "name" : "V3E1",
+      "employeeID" : "V3E1",
+      "vehicle" : null
+    }, {
+      "name" : "V3E2",
+      "employeeID" : "V3E2",
+      "vehicle" : null
+    }, {
+      "name" : "V3E3",
+      "employeeID" : "V3E3",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 3,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA4",
+    "capacity" : 22,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ {
+      "id" : "Klients24 PICKUP",
+      "name" : "Client24",
+      "volume" : 15,
+      "location" : {
+        "lat" : -7.582382287078038,
+        "lon" : 2.869689980329216,
+        "diff" : 0.7960671009294044
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients24 DELIVERY",
+        "name" : "Client24",
+        "volume" : 15,
+        "location" : {
+          "lat" : 9.670189586411858,
+          "lon" : 1.9559110049226938,
+          "diff" : 0.9026649539077578
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients24 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 34610,
+        "twFinish" : 78941,
+        "vehicle" : "AA4",
+        "next" : "Klients8 PICKUP",
+        "prev" : "Klients5 DELIVERY",
+        "volumeCollected" : 0,
+        "arrivalTime" : 42695
+      },
+      "srvTime" : 5971,
+      "twStart" : 29665,
+      "twFinish" : 72126,
+      "vehicle" : "AA4",
+      "next" : "Klients5 PICKUP",
+      "prev" : null,
+      "volumeCollected" : 15,
+      "arrivalTime" : 30067
+    }, {
+      "id" : "Klients5 PICKUP",
+      "name" : "Client5",
+      "volume" : 4,
+      "location" : {
+        "lat" : -5.058367732706943,
+        "lon" : 3.4100611414042454,
+        "diff" : 0.5495335655199247
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients5 DELIVERY",
+        "name" : "Client5",
+        "volume" : 4,
+        "location" : {
+          "lat" : 8.527892923456484,
+          "lon" : 4.779880144268882,
+          "diff" : 0.6432822536555007
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients5 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 35940,
+        "twFinish" : 74036,
+        "vehicle" : "AA4",
+        "next" : "Klients24 DELIVERY",
+        "prev" : "Klients5 PICKUP",
+        "volumeCollected" : 15,
+        "arrivalTime" : 41312
+      },
+      "srvTime" : 1099,
+      "twStart" : 29160,
+      "twFinish" : 74895,
+      "vehicle" : "AA4",
+      "next" : "Klients5 DELIVERY",
+      "prev" : "Klients24 PICKUP",
+      "volumeCollected" : 19,
+      "arrivalTime" : 36702
+    }, "Klients5 DELIVERY", "Klients24 DELIVERY", {
+      "id" : "Klients8 PICKUP",
+      "name" : "Client8",
+      "volume" : 20,
+      "location" : {
+        "lat" : -6.156645091150987,
+        "lon" : -9.12840097082897,
+        "diff" : 0.6204679360607661
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients8 DELIVERY",
+        "name" : "Client8",
+        "volume" : 20,
+        "location" : {
+          "lat" : -7.224678969321823,
+          "lon" : -1.8225136562625348,
+          "diff" : 0.5905259475087473
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients8 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 34134,
+        "twFinish" : 78830,
+        "vehicle" : "AA4",
+        "next" : null,
+        "prev" : "Klients8 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 56368
+      },
+      "srvTime" : 6205,
+      "twStart" : 33609,
+      "twFinish" : 77534,
+      "vehicle" : "AA4",
+      "next" : "Klients8 DELIVERY",
+      "prev" : "Klients24 DELIVERY",
+      "volumeCollected" : 20,
+      "arrivalTime" : 48264
+    }, "Klients8 DELIVERY" ],
+    "employees" : [ {
+      "name" : "V4E1",
+      "employeeID" : "V4E1",
+      "vehicle" : null
+    }, {
+      "name" : "V4E2",
+      "employeeID" : "V4E2",
+      "vehicle" : null
+    }, {
+      "name" : "V4E3",
+      "employeeID" : "V4E3",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 3,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA5",
+    "capacity" : 27,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ {
+      "id" : "Klients12 PICKUP",
+      "name" : "Client12",
+      "volume" : 14,
+      "location" : {
+        "lat" : -6.8272060746688386,
+        "lon" : -4.475767792401895,
+        "diff" : 0.5408313128990561
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients12 DELIVERY",
+        "name" : "Client12",
+        "volume" : 14,
+        "location" : {
+          "lat" : 7.277800610867843,
+          "lon" : -0.11817656577298763,
+          "diff" : 0.9467057960073828
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients12 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 33786,
+        "twFinish" : 74060,
+        "vehicle" : "AA5",
+        "next" : "Klients11 DELIVERY",
+        "prev" : "Klients11 PICKUP",
+        "volumeCollected" : 1,
+        "arrivalTime" : 39662
+      },
+      "srvTime" : 3786,
+      "twStart" : 30902,
+      "twFinish" : 75440,
+      "vehicle" : "AA5",
+      "next" : "Klients11 PICKUP",
+      "prev" : null,
+      "volumeCollected" : 14,
+      "arrivalTime" : 30087
+    }, {
+      "id" : "Klients11 PICKUP",
+      "name" : "Client11",
+      "volume" : 1,
+      "location" : {
+        "lat" : 8.655334201908513,
+        "lon" : -0.6816783279332057,
+        "diff" : 0.9837103802674051
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients11 DELIVERY",
+        "name" : "Client11",
+        "volume" : 1,
+        "location" : {
+          "lat" : 4.231363954167801,
+          "lon" : -2.7746111965736597,
+          "diff" : 0.9942622176543667
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients11 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 32834,
+        "twFinish" : 75046,
+        "vehicle" : "AA5",
+        "next" : "Klients7 PICKUP",
+        "prev" : "Klients12 DELIVERY",
+        "volumeCollected" : 0,
+        "arrivalTime" : 41301
+      },
+      "srvTime" : 492,
+      "twStart" : 31947,
+      "twFinish" : 77629,
+      "vehicle" : "AA5",
+      "next" : "Klients12 DELIVERY",
+      "prev" : "Klients12 PICKUP",
+      "volumeCollected" : 15,
+      "arrivalTime" : 38787
+    }, "Klients12 DELIVERY", "Klients11 DELIVERY", {
+      "id" : "Klients7 PICKUP",
+      "name" : "Client7",
+      "volume" : 16,
+      "location" : {
+        "lat" : -2.672754568972195,
+        "lon" : -9.24968256031816,
+        "diff" : 0.6799860783803073
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients7 DELIVERY",
+        "name" : "Client7",
+        "volume" : 16,
+        "location" : {
+          "lat" : 5.699225760329828,
+          "lon" : -4.242408233694133,
+          "diff" : 0.709329785471216
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients7 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 29877,
+        "twFinish" : 72828,
+        "vehicle" : "AA5",
+        "next" : "Klients20 PICKUP",
+        "prev" : "Klients7 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 52283
+      },
+      "srvTime" : 5440,
+      "twStart" : 34139,
+      "twFinish" : 73009,
+      "vehicle" : "AA5",
+      "next" : "Klients7 DELIVERY",
+      "prev" : "Klients11 DELIVERY",
+      "volumeCollected" : 16,
+      "arrivalTime" : 44335
+    }, "Klients7 DELIVERY", {
+      "id" : "Klients20 PICKUP",
+      "name" : "Client20",
+      "volume" : 19,
+      "location" : {
+        "lat" : 5.992559389044899,
+        "lon" : -4.332618876925071,
+        "diff" : 0.7645868389045827
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients20 DELIVERY",
+        "name" : "Client20",
+        "volume" : 19,
+        "location" : {
+          "lat" : -6.387228268128522,
+          "lon" : 4.738874693168087,
+          "diff" : 0.5155999822808693
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients20 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 34683,
+        "twFinish" : 77587,
+        "vehicle" : "AA5",
+        "next" : null,
+        "prev" : "Klients20 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 64173
+      },
+      "srvTime" : 7264,
+      "twStart" : 33639,
+      "twFinish" : 77606,
+      "vehicle" : "AA5",
+      "next" : "Klients20 DELIVERY",
+      "prev" : "Klients7 DELIVERY",
+      "volumeCollected" : 19,
+      "arrivalTime" : 52962
+    }, "Klients20 DELIVERY" ],
+    "employees" : [ {
+      "name" : "V5E1",
+      "employeeID" : "V5E1",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 1,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA6",
+    "capacity" : 18,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ ],
+    "employees" : [ {
+      "name" : "V6E1",
+      "employeeID" : "V6E1",
+      "vehicle" : null
+    }, {
+      "name" : "V6E2",
+      "employeeID" : "V6E2",
+      "vehicle" : null
+    }, {
+      "name" : "V6E3",
+      "employeeID" : "V6E3",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 3,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA7",
+    "capacity" : 27,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ {
+      "id" : "Klients10 PICKUP",
+      "name" : "Client10",
+      "volume" : 14,
+      "location" : {
+        "lat" : -9.109984588766915,
+        "lon" : 4.931335890955264,
+        "diff" : 0.8851681520417762
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients10 DELIVERY",
+        "name" : "Client10",
+        "volume" : 14,
+        "location" : {
+          "lat" : -6.437989283132914,
+          "lon" : -5.422408449029252,
+          "diff" : 0.5287324408484917
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients10 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 29189,
+        "twFinish" : 75010,
+        "vehicle" : "AA7",
+        "next" : "Klients16 PICKUP",
+        "prev" : "Klients23 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 40317
+      },
+      "srvTime" : 6196,
+      "twStart" : 31368,
+      "twFinish" : 74716,
+      "vehicle" : "AA7",
+      "next" : "Klients23 PICKUP",
+      "prev" : null,
+      "volumeCollected" : 14,
+      "arrivalTime" : 30611
+    }, {
+      "id" : "Klients23 PICKUP",
+      "name" : "Client23",
+      "volume" : 0,
+      "location" : {
+        "lat" : -7.686741568610154,
+        "lon" : -1.5448083582592158,
+        "diff" : 0.6711625154440688
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients23 DELIVERY",
+        "name" : "Client23",
+        "volume" : 0,
+        "location" : {
+          "lat" : 5.9934422677181125,
+          "lon" : -3.5017606563178827,
+          "diff" : 0.8669437805186926
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients23 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 29853,
+        "twFinish" : 76373,
+        "vehicle" : "AA7",
+        "next" : "Klients13 PICKUP",
+        "prev" : "Klients16 DELIVERY",
+        "volumeCollected" : 2,
+        "arrivalTime" : 54943
+      },
+      "srvTime" : 0,
+      "twStart" : 33142,
+      "twFinish" : 74031,
+      "vehicle" : "AA7",
+      "next" : "Klients10 DELIVERY",
+      "prev" : "Klients10 PICKUP",
+      "volumeCollected" : 14,
+      "arrivalTime" : 39269
+    }, "Klients10 DELIVERY", {
+      "id" : "Klients16 PICKUP",
+      "name" : "Client16",
+      "volume" : 23,
+      "location" : {
+        "lat" : -4.6547123482747494,
+        "lon" : -7.323651837176266,
+        "diff" : 0.6070504097059097
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients16 DELIVERY",
+        "name" : "Client16",
+        "volume" : 23,
+        "location" : {
+          "lat" : 8.370812619534078,
+          "lon" : -8.961444709556876,
+          "diff" : 0.7253954622832414
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients16 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 31725,
+        "twFinish" : 78286,
+        "vehicle" : "AA7",
+        "next" : "Klients23 DELIVERY",
+        "prev" : "Klients14 PICKUP",
+        "volumeCollected" : 2,
+        "arrivalTime" : 52812
+      },
+      "srvTime" : 6981,
+      "twStart" : 34861,
+      "twFinish" : 73862,
+      "vehicle" : "AA7",
+      "next" : "Klients14 PICKUP",
+      "prev" : "Klients10 DELIVERY",
+      "volumeCollected" : 23,
+      "arrivalTime" : 41587
+    }, {
+      "id" : "Klients14 PICKUP",
+      "name" : "Client14",
+      "volume" : 2,
+      "location" : {
+        "lat" : -1.713163407410871,
+        "lon" : -7.784477760719966,
+        "diff" : 0.8665860263211105
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients14 DELIVERY",
+        "name" : "Client14",
+        "volume" : 2,
+        "location" : {
+          "lat" : -7.775052393069908,
+          "lon" : -6.920745585077994,
+          "diff" : 0.9852291806837843
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients14 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 35209,
+        "twFinish" : 79145,
+        "vehicle" : "AA7",
+        "next" : null,
+        "prev" : "Klients13 DELIVERY",
+        "volumeCollected" : 0,
+        "arrivalTime" : 67462
+      },
+      "srvTime" : 867,
+      "twStart" : 30117,
+      "twFinish" : 78098,
+      "vehicle" : "AA7",
+      "next" : "Klients16 DELIVERY",
+      "prev" : "Klients16 PICKUP",
+      "volumeCollected" : 25,
+      "arrivalTime" : 49334
+    }, "Klients16 DELIVERY", "Klients23 DELIVERY", {
+      "id" : "Klients13 PICKUP",
+      "name" : "Client13",
+      "volume" : 23,
+      "location" : {
+        "lat" : 8.224847626092696,
+        "lon" : -0.019950029280614956,
+        "diff" : 0.501552790550289
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients13 DELIVERY",
+        "name" : "Client13",
+        "volume" : 23,
+        "location" : {
+          "lat" : -6.690268138160502,
+          "lon" : -6.180311534182938,
+          "diff" : 0.9393667612462867
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients13 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 33345,
+        "twFinish" : 77736,
+        "vehicle" : "AA7",
+        "next" : "Klients14 DELIVERY",
+        "prev" : "Klients13 PICKUP",
+        "volumeCollected" : 2,
+        "arrivalTime" : 66524
+      },
+      "srvTime" : 5768,
+      "twStart" : 30627,
+      "twFinish" : 75622,
+      "vehicle" : "AA7",
+      "next" : "Klients13 DELIVERY",
+      "prev" : "Klients23 DELIVERY",
+      "volumeCollected" : 25,
+      "arrivalTime" : 56606
+    }, "Klients13 DELIVERY", "Klients14 DELIVERY" ],
+    "employees" : [ {
+      "name" : "V7E1",
+      "employeeID" : "V7E1",
+      "vehicle" : null
+    }, {
+      "name" : "V7E2",
+      "employeeID" : "V7E2",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 2,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA8",
+    "capacity" : 23,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ {
+      "id" : "Klients17 PICKUP",
+      "name" : "Client17",
+      "volume" : 15,
+      "location" : {
+        "lat" : -6.571486538453377,
+        "lon" : 3.891603845058942,
+        "diff" : 0.6695665261020329
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients17 DELIVERY",
+        "name" : "Client17",
+        "volume" : 15,
+        "location" : {
+          "lat" : 5.789525048119986,
+          "lon" : -5.535291300993681,
+          "diff" : 0.9360919918618189
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients17 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 32385,
+        "twFinish" : 74697,
+        "vehicle" : "AA8",
+        "next" : "Klients19 PICKUP",
+        "prev" : "Klients17 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 39402
+      },
+      "srvTime" : 5022,
+      "twStart" : 29394,
+      "twFinish" : 78895,
+      "vehicle" : "AA8",
+      "next" : "Klients17 DELIVERY",
+      "prev" : null,
+      "volumeCollected" : 15,
+      "arrivalTime" : 30383
+    }, "Klients17 DELIVERY", {
+      "id" : "Klients19 PICKUP",
+      "name" : "Client19",
+      "volume" : 23,
+      "location" : {
+        "lat" : 6.910278573692736,
+        "lon" : -0.8195808946843108,
+        "diff" : 0.6831193383549732
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients19 DELIVERY",
+        "name" : "Client19",
+        "volume" : 23,
+        "location" : {
+          "lat" : 3.7031234735975804,
+          "lon" : 3.4326790616776357,
+          "diff" : 0.7838841549463171
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients19 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 28935,
+        "twFinish" : 78390,
+        "vehicle" : "AA8",
+        "next" : "Klients22 PICKUP",
+        "prev" : "Klients19 PICKUP",
+        "volumeCollected" : 0,
+        "arrivalTime" : 50474
+      },
+      "srvTime" : 7856,
+      "twStart" : 31532,
+      "twFinish" : 72821,
+      "vehicle" : "AA8",
+      "next" : "Klients19 DELIVERY",
+      "prev" : "Klients17 DELIVERY",
+      "volumeCollected" : 23,
+      "arrivalTime" : 41248
+    }, "Klients19 DELIVERY", {
+      "id" : "Klients22 PICKUP",
+      "name" : "Client22",
+      "volume" : 12,
+      "location" : {
+        "lat" : -8.016383615479377,
+        "lon" : 7.3443069543767265,
+        "diff" : 0.5973204041755984
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients22 DELIVERY",
+        "name" : "Client22",
+        "volume" : 12,
+        "location" : {
+          "lat" : -7.1093792787348935,
+          "lon" : -0.11672244662038622,
+          "diff" : 0.7913780048478996
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients22 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 32991,
+        "twFinish" : 73361,
+        "vehicle" : "AA8",
+        "next" : null,
+        "prev" : "Klients15 DELIVERY",
+        "volumeCollected" : 0,
+        "arrivalTime" : 65249
+      },
+      "srvTime" : 3584,
+      "twStart" : 29975,
+      "twFinish" : 74323,
+      "vehicle" : "AA8",
+      "next" : "Klients15 PICKUP",
+      "prev" : "Klients19 DELIVERY",
+      "volumeCollected" : 12,
+      "arrivalTime" : 54251
+    }, {
+      "id" : "Klients15 PICKUP",
+      "name" : "Client15",
+      "volume" : 10,
+      "location" : {
+        "lat" : -8.148089954510782,
+        "lon" : 6.7839233585341105,
+        "diff" : 0.8635124972614179
+      },
+      "visitType" : "PICKUP",
+      "other" : {
+        "id" : "Klients15 DELIVERY",
+        "name" : "Client15",
+        "volume" : 10,
+        "location" : {
+          "lat" : -7.50706732776133,
+          "lon" : 7.8011381275621545,
+          "diff" : 0.8155845425609459
+        },
+        "visitType" : "DELIVERY",
+        "other" : "Klients15 PICKUP",
+        "srvTime" : 600,
+        "twStart" : 32102,
+        "twFinish" : 77806,
+        "vehicle" : "AA8",
+        "next" : "Klients22 DELIVERY",
+        "prev" : "Klients15 PICKUP",
+        "volumeCollected" : 12,
+        "arrivalTime" : 62610
+      },
+      "srvTime" : 4318,
+      "twStart" : 32208,
+      "twFinish" : 79061,
+      "vehicle" : "AA8",
+      "next" : "Klients15 DELIVERY",
+      "prev" : "Klients22 PICKUP",
+      "volumeCollected" : 22,
+      "arrivalTime" : 57983
+    }, "Klients15 DELIVERY", "Klients22 DELIVERY" ],
+    "employees" : [ {
+      "name" : "V8E1",
+      "employeeID" : "V8E1",
+      "vehicle" : null
+    }, {
+      "name" : "V8E2",
+      "employeeID" : "V8E2",
+      "vehicle" : null
+    }, {
+      "name" : "V8E3",
+      "employeeID" : "V8E3",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 3,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNr" : "AA9",
+    "capacity" : 18,
+    "depot" : {
+      "lat" : -8.100721806996207,
+      "lon" : -0.8567954008935068,
+      "diff" : 0.5
+    },
+    "visits" : [ ],
+    "employees" : [ {
+      "name" : "V9E1",
+      "employeeID" : "V9E1",
+      "vehicle" : null
+    } ],
+    "employeeCapacity" : 1,
+    "twStart" : 28800,
+    "twFinish" : 72000,
+    "srvSTime" : 300,
+    "srvFTime" : 300,
+    "maxWorkTime" : 36000,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  } ],
+  "visitList" : [ "Klients1 PICKUP", "Klients1 DELIVERY", "Klients2 PICKUP", "Klients2 DELIVERY", "Klients3 PICKUP", "Klients3 DELIVERY", "Klients4 PICKUP", "Klients4 DELIVERY", "Klients5 PICKUP", "Klients5 DELIVERY", "Klients6 PICKUP", "Klients6 DELIVERY", "Klients7 PICKUP", "Klients7 DELIVERY", "Klients8 PICKUP", "Klients8 DELIVERY", "Klients9 PICKUP", "Klients9 DELIVERY", "Klients10 PICKUP", "Klients10 DELIVERY", "Klients11 PICKUP", "Klients11 DELIVERY", "Klients12 PICKUP", "Klients12 DELIVERY", "Klients13 PICKUP", "Klients13 DELIVERY", "Klients14 PICKUP", "Klients14 DELIVERY", "Klients15 PICKUP", "Klients15 DELIVERY", "Klients16 PICKUP", "Klients16 DELIVERY", "Klients17 PICKUP", "Klients17 DELIVERY", "Klients18 PICKUP", "Klients18 DELIVERY", "Klients19 PICKUP", "Klients19 DELIVERY", "Klients20 PICKUP", "Klients20 DELIVERY", "Klients21 PICKUP", "Klients21 DELIVERY", "Klients22 PICKUP", "Klients22 DELIVERY", "Klients23 PICKUP", "Klients23 DELIVERY", "Klients24 PICKUP", "Klients24 DELIVERY", "Klients25 PICKUP", "Klients25 DELIVERY" ],
+  "locationList" : [ {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : -8.100721806996207,
+    "lon" : -0.8567954008935068,
+    "diff" : 0.5
+  }, {
+    "lat" : 9.067302339640378,
+    "lon" : 4.217242244222177,
+    "diff" : 0.9007869186630943
+  }, {
+    "lat" : 7.520207023881696,
+    "lon" : 4.049329140288725,
+    "diff" : 0.5188987446193213
+  }, {
+    "lat" : -0.15666440028161865,
+    "lon" : -6.170671193675714,
+    "diff" : 0.5479502386852767
+  }, {
+    "lat" : -8.083254776822471,
+    "lon" : -1.4655131330296776,
+    "diff" : 0.832020731117024
+  }, {
+    "lat" : -6.487811790382814,
+    "lon" : 7.5408959947635275,
+    "diff" : 0.765248014476466
+  }, {
+    "lat" : 7.883499534434989,
+    "lon" : 8.269309541002052,
+    "diff" : 0.7816795314212712
+  }, {
+    "lat" : -0.6122979117471132,
+    "lon" : 3.123129923075961,
+    "diff" : 0.5269859657808824
+  }, {
+    "lat" : 3.0926807309413142,
+    "lon" : 8.166685949993298,
+    "diff" : 0.8532615286485974
+  }, {
+    "lat" : -5.058367732706943,
+    "lon" : 3.4100611414042454,
+    "diff" : 0.5495335655199247
+  }, {
+    "lat" : 8.527892923456484,
+    "lon" : 4.779880144268882,
+    "diff" : 0.6432822536555007
+  }, {
+    "lat" : -1.584103642467916,
+    "lon" : 8.918303001124123,
+    "diff" : 0.5635626042990081
+  }, {
+    "lat" : -8.62761184630825,
+    "lon" : -3.99801625767825,
+    "diff" : 0.5663774818440475
+  }, {
+    "lat" : -2.672754568972195,
+    "lon" : -9.24968256031816,
+    "diff" : 0.6799860783803073
+  }, {
+    "lat" : 5.699225760329828,
+    "lon" : -4.242408233694133,
+    "diff" : 0.709329785471216
+  }, {
+    "lat" : -6.156645091150987,
+    "lon" : -9.12840097082897,
+    "diff" : 0.6204679360607661
+  }, {
+    "lat" : -7.224678969321823,
+    "lon" : -1.8225136562625348,
+    "diff" : 0.5905259475087473
+  }, {
+    "lat" : -1.7997483001791643,
+    "lon" : 7.481162505037961,
+    "diff" : 0.9106911323270049
+  }, {
+    "lat" : 9.978512492573973,
+    "lon" : 1.3573088110458578,
+    "diff" : 0.5357536411514647
+  }, {
+    "lat" : -9.109984588766915,
+    "lon" : 4.931335890955264,
+    "diff" : 0.8851681520417762
+  }, {
+    "lat" : -6.437989283132914,
+    "lon" : -5.422408449029252,
+    "diff" : 0.5287324408484917
+  }, {
+    "lat" : 8.655334201908513,
+    "lon" : -0.6816783279332057,
+    "diff" : 0.9837103802674051
+  }, {
+    "lat" : 4.231363954167801,
+    "lon" : -2.7746111965736597,
+    "diff" : 0.9942622176543667
+  }, {
+    "lat" : -6.8272060746688386,
+    "lon" : -4.475767792401895,
+    "diff" : 0.5408313128990561
+  }, {
+    "lat" : 7.277800610867843,
+    "lon" : -0.11817656577298763,
+    "diff" : 0.9467057960073828
+  }, {
+    "lat" : 8.224847626092696,
+    "lon" : -0.019950029280614956,
+    "diff" : 0.501552790550289
+  }, {
+    "lat" : -6.690268138160502,
+    "lon" : -6.180311534182938,
+    "diff" : 0.9393667612462867
+  }, {
+    "lat" : -1.713163407410871,
+    "lon" : -7.784477760719966,
+    "diff" : 0.8665860263211105
+  }, {
+    "lat" : -7.775052393069908,
+    "lon" : -6.920745585077994,
+    "diff" : 0.9852291806837843
+  }, {
+    "lat" : -8.148089954510782,
+    "lon" : 6.7839233585341105,
+    "diff" : 0.8635124972614179
+  }, {
+    "lat" : -7.50706732776133,
+    "lon" : 7.8011381275621545,
+    "diff" : 0.8155845425609459
+  }, {
+    "lat" : -4.6547123482747494,
+    "lon" : -7.323651837176266,
+    "diff" : 0.6070504097059097
+  }, {
+    "lat" : 8.370812619534078,
+    "lon" : -8.961444709556876,
+    "diff" : 0.7253954622832414
+  }, {
+    "lat" : -6.571486538453377,
+    "lon" : 3.891603845058942,
+    "diff" : 0.6695665261020329
+  }, {
+    "lat" : 5.789525048119986,
+    "lon" : -5.535291300993681,
+    "diff" : 0.9360919918618189
+  }, {
+    "lat" : -6.714371104778132,
+    "lon" : -4.549780861914829,
+    "diff" : 0.5015008108525161
+  }, {
+    "lat" : 4.376577903264867,
+    "lon" : -9.839724147997417,
+    "diff" : 0.8294761379423683
+  }, {
+    "lat" : 6.910278573692736,
+    "lon" : -0.8195808946843108,
+    "diff" : 0.6831193383549732
+  }, {
+    "lat" : 3.7031234735975804,
+    "lon" : 3.4326790616776357,
+    "diff" : 0.7838841549463171
+  }, {
+    "lat" : 5.992559389044899,
+    "lon" : -4.332618876925071,
+    "diff" : 0.7645868389045827
+  }, {
+    "lat" : -6.387228268128522,
+    "lon" : 4.738874693168087,
+    "diff" : 0.5155999822808693
+  }, {
+    "lat" : -1.857647704167709,
+    "lon" : 8.19323509803452,
+    "diff" : 0.8065536462777569
+  }, {
+    "lat" : 4.788205062637495,
+    "lon" : -3.434031121821053,
+    "diff" : 0.513585874154153
+  }, {
+    "lat" : -8.016383615479377,
+    "lon" : 7.3443069543767265,
+    "diff" : 0.5973204041755984
+  }, {
+    "lat" : -7.1093792787348935,
+    "lon" : -0.11672244662038622,
+    "diff" : 0.7913780048478996
+  }, {
+    "lat" : -7.686741568610154,
+    "lon" : -1.5448083582592158,
+    "diff" : 0.6711625154440688
+  }, {
+    "lat" : 5.9934422677181125,
+    "lon" : -3.5017606563178827,
+    "diff" : 0.8669437805186926
+  }, {
+    "lat" : -7.582382287078038,
+    "lon" : 2.869689980329216,
+    "diff" : 0.7960671009294044
+  }, {
+    "lat" : 9.670189586411858,
+    "lon" : 1.9559110049226938,
+    "diff" : 0.9026649539077578
+  }, {
+    "lat" : 0.289764153755975,
+    "lon" : -6.426716347788693,
+    "diff" : 0.6807716504555875
+  }, {
+    "lat" : -4.070435810990379,
+    "lon" : -9.08676662370187,
+    "diff" : 0.9035066031260828
+  } ]
+}
